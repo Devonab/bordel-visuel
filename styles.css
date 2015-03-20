@@ -1,0 +1,17 @@
+body{ font-family: sans-serif; margin: 0; padding: 0; background: #1d2834; }
+ol { list-style: none; }
+h1 { text-align: center; color: #3498db; font-size: 60px; margin: 0;  text-transform: uppercase; letter-spacing: 3px; }
+ul { list-style: none; margin: 0; padding: 0; font-size: 0px; line-height: 0;}
+ul li, ul li a  { display: inline-block; margin: 0; padding: 0; }
+section { padding: 20px 0; background: #192129; }
+form { width: 520px; margin: 20px auto; /*background: #f9f9f9;*/  border: 1px solid #2d6992;}
+input[type="submit"] { width: 415px; border: none; background: #2d6992; padding: 10px 20px; margin-top: 20px; cursor: pointer; color: #fff;  text-transform: uppercase; font-size: 26px; -webkit-transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear;-o-transition: all .3s linear;transition: all .3s linear;}
+input[type="submit"]:hover { background: #3498db; }
+fieldset { border: none;  }
+label { color: #bce1ed;}
+small { color: #e24646; font-style: italic;}
+#image { margin-top: 20px; }
+img, a { margin: 0; padding: 0;}
+input[type="file"] { color: #bce1ed;}
+#error { color: #e24646; font-weight: bold; margin: 15px 0;}
+div { overflow: hidden; }
