@@ -7,7 +7,7 @@ if(count($_POST)>0) {
     
     $allowedext =  array('gif','png' ,'jpg', 'jpeg');
     $filename = $_FILES['image']['name'];
-    $ext = pathinfo($filename, PATHINFO_EXTENSION);
+    $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
     
     if(!in_array($ext,$allowedext) ) {
         $errors = 'Only Gif, PNG, JPG & JPEG are allowed.';
