@@ -2554,7 +2554,7 @@ class upload {
         $this->translation['uploaded_err_extension']      = 'File upload error (file upload stopped by extension).';
         $this->translation['uploaded_unknown']            = 'File upload error (unknown error code).';
         $this->translation['try_again']                   = 'File upload error. Please try again.';
-        $this->translation['file_too_big']                = 'File too big.';
+        $this->translation['file_too_big']                = 'File too big. (max 500kb)';
         $this->translation['no_mime']                     = 'MIME type can\'t be detected.';
         $this->translation['incorrect_file']              = 'Incorrect type of file.';
         $this->translation['image_too_wide']              = 'Image too wide.';
