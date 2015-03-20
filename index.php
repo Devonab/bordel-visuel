@@ -29,8 +29,8 @@
 
 <div>
 <?php 
-$width= 50;
-$height= 50;
+$width= 4;
+$height= 4;
 $dossier = 'fichiers';
 $files = scandir('./'.$dossier);
 
